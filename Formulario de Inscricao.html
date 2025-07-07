@@ -9,18 +9,26 @@
   <h2>Preencha seus dados</h2>
   <form action="https:/localhost:1193/cadastros/ficha-de-inscricao" method="get"
 
-<label>Nome</label>
-<input type="text" required mimlength=""3"" maxlength""200"" name="nome">
-<br>
+<label for="campo-nome">Nome</label>
+<input type="text" required minlength="3" maxlength"200" id="campo-nome" name="nome">
+  <br>
 
 <br>
-<label>E-mail</label>
-<input type="text" required mimlength="11" maxlength="5000" name="E-mail"
-  </br>
+<label for="campo-email">E-mail</label>
+<input type="text" required minlength="11" maxlength="5000" id="campo-email" name="E-mail"
+  <br>
+
+<br>
+<label for="campo-cpf">CPF</label>
+<input type="text" required minlength="14" maxlength="14" id="campo-cpf" name="cpf"
+  <br>
+
 
 
 <br>
-<button type="submit">Finalizar minha inscrição</button>     
+<button type="submit">Finalizar minha inscrição</button>
+  <br>
+
 
   </form>
 </body>
