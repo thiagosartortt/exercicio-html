@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de reserva</title>
+</head>
+<body>
+    <!-- trabalhe-conosco.html -->
+  <h1>Cadastre-se</h1>
+
+
+ <form action="https:localhost:8001/vagas/cadastrar" method="get">
+
+        <!--id é um identificador do elemento e não pode se repetir na pagina -->
+    
+    <label for="campo-nome">Nome</label>
+    <input type="text" required minlength="3" maxlength="20" id="campo-nome" name="nome">
+    <br>
+
+    <label for="campo-idade">Idade</label>
+    <input type="number" required min="14" maxlength="100" id="campo-idade">
+    <br>
+
+
+    <label for="campo-cpf">CPF</label>
+    <input type="text" required minlength="14" maxlength="14" id="campo-cpf">
+    <br>
+
+
+    
+
+    
+    <br>
+    <label for="csmpo-anexo">Anexo</label>
+    <input type="file" id="campo-anexo" required name="anexo">
+    <br>
+
+    <button type="submit">Enviar</button>
+
+</form>
+
+
+
+  
+</body>
+</html>
